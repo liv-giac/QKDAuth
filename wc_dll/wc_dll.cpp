@@ -53,7 +53,7 @@ void h3(uint8_t* m, uint8_t* A, size_t A_bit_offset, size_t s, uint8_t* result, 
     }
 }
 
-__declspec(dllexport) void wca_tag(uint32_t seed, uint32_t a, uint32_t b, uint8_t* A, uint8_t* tag_out) {
+__declspec(dllexport) void  wca_tag(uint32_t seed, uint32_t a, uint32_t b, uint8_t* A, uint8_t* tag_out) {
     //calculating s, sequence length and n of substrings
     uint32_t s = (uint32_t)(b + log2(log2((double)a)));
     uint32_t sequence_length = log2u(a) - log2u(b);
@@ -103,13 +103,17 @@ __declspec(dllexport) void wca_tag(uint32_t seed, uint32_t a, uint32_t b, uint8_
             }
         }
     }
-    //getting the last b bits of F for tag and saving them in tag_out
+
+
+    uint8_t mask = 0xFF << (8 - b);
     size_t tag_start_bit = s - b;
     for (size_t i = 0; i < b; i++) {
         uint8_t bit = get_bit(F, tag_start_bit + i);
         set_bit(tag_out, i, bit);
     }
 
+    // Apply the mask to the result
+    *tag_out &= mask;
     // cleanup
     free(A_padded);
     free(m);
