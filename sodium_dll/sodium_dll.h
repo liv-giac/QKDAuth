@@ -1,5 +1,8 @@
 
 #include <sodium.h>
+#ifdef __cplusplus
+extern "C" {
+#endif
 
     /**
      * Encrypts a message using ChaCha20-Poly1305 (IETF variant).
@@ -45,4 +48,6 @@
         const unsigned char* key,
         unsigned char* decrypted);
 
-
+#ifdef __cplusplus
+}
+#endif
