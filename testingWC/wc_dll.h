@@ -22,3 +22,5 @@ void h3(uint8_t* m, uint8_t* A, size_t s, uint8_t* result);
 __declspec(dllexport) void wca_tag(uint32_t index, uint32_t a, uint32_t b, uint8_t* A, uint8_t* tag_out);
 
 #endif // WCA_TAG_H
+
+
