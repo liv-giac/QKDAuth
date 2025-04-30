@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  monocypher.c
+C:\Users\giaco\Downloads\monocypher-4.0.2\monocypher-4.0.2\src\monocypher.c(881,40): warning C4244: 'inizializzazione': conversione da 'u64' a 'u32'. Possibile perdita di dati.
+  dllmain.cpp
+  my_mono.cpp
+  Generazione del codice in corso...
+     Creazione della libreria C:\Users\giaco\Documents\tesi\my_mono\Debug\my_mono.lib e dell'oggetto C:\Users\giaco\Documents\tesi\my_mono\Debug\my_mono.exp
+  my_mono.vcxproj -> C:\Users\giaco\Documents\tesi\my_mono\Debug\my_mono.dll
