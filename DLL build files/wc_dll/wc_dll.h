@@ -4,7 +4,9 @@
 #include <string.h>
 #include <math.h>
 #include <stdio.h>
-
+#ifdef __cplusplus
+extern "C" {
+#endif
 // Log base 2 for unsigned integers
 uint32_t log2u(uint32_t x);
 
@@ -21,3 +23,6 @@ void h3(uint8_t* m, uint8_t* A, size_t A_bit_offset, size_t s, uint8_t* result, 
 
 // Main tag generation function 
 __declspec(dllexport) void wca_tag(uint32_t seed, uint32_t a, uint32_t b, uint8_t* A, uint8_t* tag_out);
+#ifdef __cplusplus
+}
+#endif

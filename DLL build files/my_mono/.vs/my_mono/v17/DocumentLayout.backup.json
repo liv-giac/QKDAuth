@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\",
+  "WorkspaceRootPath": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\my_mono\\my_mono.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|solutionrelative:my_mono.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\my_mono\\my_mono.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\my_mono.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|solutionrelative:my_mono.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\my_mono\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\my_mono.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|solutionrelative:my_mono.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\my_mono\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05184CB9-425B-4697-9A4A-A8D4A1C2FA58}|my_mono.vcxproj|solutionrelative:dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,17 +32,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "my_mono.h",
-              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\my_mono.h",
+              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\my_mono.h",
               "RelativeDocumentMoniker": "my_mono.h",
-              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\my_mono.h",
+              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\my_mono.h",
               "RelativeToolTip": "my_mono.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-29T13:33:50.485Z",
               "EditorCaption": ""
@@ -51,9 +51,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "pch.h",
-              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\pch.h",
+              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\pch.h",
               "RelativeDocumentMoniker": "pch.h",
-              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\pch.h",
+              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\pch.h",
               "RelativeToolTip": "pch.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -61,48 +61,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "my_mono.cpp",
-              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\my_mono.cpp",
+              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\my_mono.cpp",
               "RelativeDocumentMoniker": "my_mono.cpp",
-              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\my_mono.cpp",
+              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\my_mono.cpp",
               "RelativeToolTip": "my_mono.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-29T12:46:50.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "monocypher.h",
               "DocumentMoniker": "C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h",
               "ToolTip": "C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.h",
               "ViewState": "AgIAABgBAAAAAAAAAAAowEABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-29T12:44:35.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "monocypher.c",
               "DocumentMoniker": "C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c",
               "ToolTip": "C:\\Users\\giaco\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\monocypher-4.0.2\\monocypher-4.0.2\\src\\monocypher.c",
               "ViewState": "AgIAAGQLAAAAAAAAAAAowHULAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-29T12:42:41.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "dllmain.cpp",
-              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\dllmain.cpp",
+              "DocumentMoniker": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\dllmain.cpp",
               "RelativeDocumentMoniker": "dllmain.cpp",
-              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\my_mono\\dllmain.cpp",
+              "ToolTip": "C:\\Users\\giaco\\Documents\\tesi\\QKDAuth\\DLL build files\\my_mono\\dllmain.cpp",
               "RelativeToolTip": "dllmain.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

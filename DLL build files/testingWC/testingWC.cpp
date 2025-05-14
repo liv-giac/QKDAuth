@@ -38,7 +38,7 @@ int main()
         0x61626364, 0x65666768, 0x696A6B6C, 0x71727374, 0x75767778, 0x797A7B7C,
         0x81828384, 0x85868788, 0x898A8B8C, 0x91929394, 0x95969798, 0x999A9B9C
     };
-    seed = v[7];
+    seed = 1;
     uint8_t* tag_out = (uint8_t*)calloc(BITS_TO_BYTES(b), 1);
     wca_tag(seed, a, b, k, tag_out);
     free(tag_out);

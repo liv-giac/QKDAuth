@@ -26,24 +26,19 @@
     <ClInclude Include="..\wc_dll\wc_dll.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
-    <ClInclude Include="sodium_dll.h">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
     <ClInclude Include="my_mono.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\sodium_dll\x64\Debug\sodium_dll.dll" />
-    <None Include="..\wc_dll\x64\Release\wc_dll.dll">
+    <ClInclude Include="wc_dll.h">
       <Filter>File di intestazione</Filter>
-    </None>
-    <None Include="..\..\my_mono\x64\Debug\my_mono.dll" />
-    <None Include="my_mono.dll" />
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\sodium_dll\x64\Debug\sodium_dll.lib" />
-    <Library Include="..\..\my_mono\x64\Debug\my_mono.lib" />
+    <None Include="my_mono.dll" />
+    <None Include="wc_dll.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Library Include="my_mono.lib" />
+    <Library Include="wc_dll.lib" />
   </ItemGroup>
 </Project>

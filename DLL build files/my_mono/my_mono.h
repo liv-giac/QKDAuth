@@ -2,6 +2,10 @@
 #include <stdint.h>
 #include <stddef.h> // for size_t
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
 
     // Encrypts plain_text using ChaCha20 and authenticates with Poly1305
@@ -24,3 +28,9 @@
         uint8_t key[32],
         uint8_t nonce[12],
         uint8_t* ad, uint32_t ad_size);
+
+
+
+#ifdef __cplusplus
+    }
+#endif

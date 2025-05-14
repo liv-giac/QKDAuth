@@ -7,6 +7,10 @@
 #include <iostream>
 #include <iomanip>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 
     __declspec(dllexport) void polychacha_encrypt(
         uint8_t* cipher_text,
@@ -126,6 +130,9 @@
         return valid; // 0 = success, -1 = invalid MAC
     }
 
+#ifdef __cplusplus
+    }
+#endif
 
 
 

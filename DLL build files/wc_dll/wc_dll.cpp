@@ -8,7 +8,9 @@
 #include "wc_dll.h"
 
 #define BITS_TO_BYTES(bits) (((bits) + 7) / 8)
-
+#ifdef __cplusplus
+extern "C" {
+#endif
 static uint32_t log2u(uint32_t x) {
     uint32_t res = 0;
     while (x >>= 1) res++;
@@ -29,8 +31,9 @@ void set_bit(uint8_t* data, size_t bit_index, uint8_t bit) {
 void printBits(uint8_t* data, uint32_t lengthInBits) {
     for (uint32_t i = 0; i < lengthInBits; ++i) {
         std::cout << (int)get_bit(data, i);
+        if ((i + 1) % 8 == 0) std::cout << " ";  // for easier reading
     }
-    std::cout << std::endl;
+    std::cout << "\nTotal bits: " << lengthInBits << std::endl;
 }
 
 
@@ -56,6 +59,7 @@ void h3(uint8_t* m, uint8_t* A, size_t A_bit_offset, size_t s, uint8_t* result, 
 __declspec(dllexport) void  wca_tag(uint32_t seed, uint32_t a, uint32_t b, uint8_t* A, uint8_t* tag_out) {
     //calculating s, sequence length and n of substrings
     uint32_t s = (uint32_t)(b + log2(log2((double)a)));
+	std::cout << "s: " << s << std::endl;
     uint32_t sequence_length = log2u(a) - log2u(b);
     size_t substrings = (a + (2 * s - 1)) / (2 * s);
 
@@ -104,22 +108,27 @@ __declspec(dllexport) void  wca_tag(uint32_t seed, uint32_t a, uint32_t b, uint8
         }
     }
 
-
-    uint8_t mask = 0xFF << (8 - b);
     size_t tag_start_bit = s - b;
     for (size_t i = 0; i < b; i++) {
         uint8_t bit = get_bit(F, tag_start_bit + i);
         set_bit(tag_out, i, bit);
     }
 
-    // Apply the mask to the result
-    *tag_out &= mask;
-    // cleanup
+    size_t full_bytes = b / 8;
+    size_t remaining_bits = b % 8;
+    if (remaining_bits > 0) {
+        uint8_t last_mask = 0xFF << (8 - remaining_bits);
+        tag_out[full_bytes] &= last_mask;
+    }
+
+    
+
     free(A_padded);
     free(m);
     free(F);
-
-    //printing final tag, it is also saved in tag_out
     std::cout << "Final tag: ";
     printBits(tag_out, b);
 }
+#ifdef __cplusplus
+}
+#endif

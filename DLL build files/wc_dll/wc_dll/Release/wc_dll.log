@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+  wc_dll.cpp
+     Creazione della libreria C:\Users\giaco\Documents\tesi\QKDAuth\DLL build files\wc_dll\Release\wc_dll.lib e dell'oggetto C:\Users\giaco\Documents\tesi\QKDAuth\DLL build files\wc_dll\Release\wc_dll.exp
+  Generazione codice in corso...
+  Previous IPDB not found, fall back to full compilation.
+  All 18 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  wc_dll.vcxproj -> C:\Users\giaco\Documents\tesi\QKDAuth\DLL build files\wc_dll\Release\wc_dll.dll

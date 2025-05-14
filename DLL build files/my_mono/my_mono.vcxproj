@@ -145,8 +145,8 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\monocypher-4.0.2\monocypher-4.0.2\src\monocypher.c" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="monocypher.c" />
     <ClCompile Include="my_mono.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
